@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.whole-container{
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: hsl(218, 13%, 13%);
+    padding: 30px;
+    border-radius: 20px;
+    width: 380px;
+}
+.icon-container{
+    background-color: hsl(213, 19%, 18%);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.main-heading{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.description{
+    font-size: 18px;
+    color: hsl(216, 12%, 54%);
+}
+.number-btn{
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border-width: 0px;
+    margin-right: 30px;
+}
+.rating-btns{
+    margin: 20px 0px;
+    text-align: center;
+}
+.submit{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    height: 40px;
+    width: 100%;
+    border-radius: 100px;
+    font-size: 18px;
+    border-width: 0px;
+}
+.center{
+    text-align: center;
+}
+.rating-display{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    padding: 5px;
+    margin: 20px 0px;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 100px;
+    margin-left: 70px;
+}
